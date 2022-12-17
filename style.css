@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: var(--font-fa);
+  font-family: var(--font-fa);
   background-color: var(--bac-color);
   position: relative;
   overflow: hidden;
@@ -21,22 +21,18 @@ body {
   z-index: -1;
 }
 .top {
-  top: -350px;
-  left: -120px;
+  top: -450px;
+  left: 0px;
 }
 .bot {
-  right: -90px;
+  right: -80px;
   top: 450px;
 }
 .conteinet {
   border-radius: 20px;
   background-color: white;
-  width: 400px;
-  height: 450px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  width: 300px;
+  height: 350px;
 }
 .min_div {
   z-index: 1000;
@@ -48,40 +44,40 @@ body {
 .min_bac {
   width: 100%;
   border-radius: 20px 20px 0px 0px;
-  -webkit-border-radius: 20px 20px 0px 0px;
-  -moz-border-radius: 20px 20px 0px 0px;
-  -ms-border-radius: 20px 20px 0px 0px;
-  -o-border-radius: 20px 20px 0px 0px;
 }
-span{
-    color: var(--color);
-    font-weight: var(--font-w4);
-    text-transform: capitalize;
+span {
+  color: var(--color);
+  font-weight: var(--font-w4);
+  text-transform: capitalize;
 }
 .imagea {
   margin-top: -59px;
-  margin-left: 35%;
+  margin-left: 30%;
   width: 105px;
   border: 5px white solid;
   border-radius: 50%;
 }
-.min_tex{
-    text-align: center;
+.min_tex {
+  text-align: center;
 }
-h3{
-    font-weight: var(--font-w7);
+h3 {
+  font-weight: var(--font-w7);
+  font-size: 16px;
 }
-h2{
-    margin-bottom: 10px;
+.num span{
+font-size: 14px;
 }
-.h2_span{
-    margin-bottom: 20px;
+h2 {
+  margin-bottom: 5px;
+  margin-top:3px;
 }
-hr{
-    border: #f1f1f1 0.5px solid;
+
+hr {
+  border: #f1f1f1 0.5px solid;
+  margin: 0;
 }
-.nums{
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
+.nums {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
