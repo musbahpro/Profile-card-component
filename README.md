@@ -1,3 +1,3 @@
 # Profile-card-component
 Profile card component in frontendmentor
-## heloo uplud
+## https://musbahpro.github.io/Profile-card-component/
